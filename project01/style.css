@@ -34,10 +34,3 @@ body {
     max-width: 500px;
     height: auto;
 }
-
-
-h3 {
-    text-decoration: underline;
-    font-weight: bold;
-    text-transform: lowercase;
-}
