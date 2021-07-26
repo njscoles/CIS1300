@@ -1,1 +1,44 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+ overflow:auto;
+}
+
+table {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    height: 200px;
+    vertical-align: top;
+    text-align: center;
+    background-color: #FF0000
+}
+
+.footer {
+    height: 200px;
+    vertical-align: top;
+    text-align: center;
+    background-color: FF0000;
+}
+
+.leftsidebar {
+    width: 20%;
+    vertical-alignment: top;
+    background-color: #00EFFF;
+}
+
+.rightsidebar {
+    width: 20%;
+    vertical-alignment: top;
+    background-color: #00EFFF;s
+}
+
+body {
+    marign: 0px;
+    padding: 0px;
+}
 
