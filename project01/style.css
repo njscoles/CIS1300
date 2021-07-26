@@ -39,6 +39,10 @@ body {
     height: auto;
 }
 
+.section p {
+    text-indent: 2em;
+}
+
 h3 {
     text-decoration: underline;
     font-weight: bold;
