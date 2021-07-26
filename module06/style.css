@@ -15,14 +15,14 @@ table {
     height: 200px;
     vertical-align: top;
     text-align: center;
-    background-color: #FF0000
+    background-color: #FF0000;
 }
 
 .footer {
     height: 200px;
     vertical-align: top;
     text-align: center;
-    background-color: FF0000;
+    background-color: #FF0000;
 }
 
 .leftsidebar {
@@ -34,7 +34,7 @@ table {
 .rightsidebar {
     width: 20%;
     vertical-alignment: top;
-    background-color: #00EFFF;s
+    background-color: #00EFFF;
 }
 
 body {
@@ -43,5 +43,5 @@ body {
 }
 
 .maincontent {
-    background-color: #E200FF
+    background-color: #E200FF;
 }
