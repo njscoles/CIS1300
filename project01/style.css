@@ -26,6 +26,10 @@ body {
 	background-color: rgba(120, 150, 180, 0.2);
 	border: 1px solid #cccccc;
 	box-shadow: 1px 1px 2px -1px #000000;
+	border-top-color: #cccccc;
+	border-right-color: #000000;
+	border-left-color: #999999;
+	border-radius: 1em;
 }
 .section img {
     float: right;
