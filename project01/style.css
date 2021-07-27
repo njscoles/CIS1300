@@ -37,6 +37,10 @@ body {
     min-width: 250px;
     max-width: 500px;
     height: auto;
+    border-top-color: #cccccc;
+	border-right-color: #000000;
+	border-left-color: #999999;
+	border-radius: 1em;
 }
 
 .section p {
@@ -48,8 +52,6 @@ h3 {
     font-weight: bold;
     font-variant: small-caps;
 }
-
-
 
 ol.inherit div.section {
     text-color = #FF0000;
