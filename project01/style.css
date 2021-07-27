@@ -56,7 +56,7 @@ h3 {
 ol.inherit div.section {
     text-color = #FF0000;
     a:visited {
-        color: #FF0000
+        color: #FF0000;
     } 
 }
 
