@@ -1,0 +1,53 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+ overflow:auto;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #ff0000;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #ff0000;
+}
+
+main {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-height: "calc(100vh - 400px)";
+    background-color: #3333ff ;
+}
+
+aside {
+    width: 20%;
+    position: absolute;
+}
+
+aside:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+aside:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content {
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
