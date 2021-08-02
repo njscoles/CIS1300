@@ -1,0 +1,27 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+ overflow:auto;
+}
+
+.first {
+    margin: 2em;
+    padding: 2em;
+    border-width: 1em;
+    border-color: #ff0000;
+    width: 30em;
+    background-color: blue;
+    box-sizing: content-box;
+}
+
+.last {
+    margin: 2em;
+    padding: 2em;
+    border-width: 1em;
+    border-color: #ff0000;
+    width: 30em;
+    background-color: blue;
+    box-sizing: border-box;
+}
