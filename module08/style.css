@@ -12,7 +12,7 @@ body {
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
       "header header header"
-      "aside main aside"
+      "asideL main asideR"
       "footer footer footer" ;
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ header {
 }
 
 aside:first-child {
-    grid-area: aside;
+    grid-area: asideL;
     background-color: #00ff91;
 }
 
@@ -34,7 +34,7 @@ main {
 }
 
 aside:last-child{
-    grid-area: aside;
+    grid-area: asideR;
     background-color: #00ff91;
 }
 
