@@ -1,0 +1,44 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+ overflow:auto;
+}
+
+body {
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+      "header header header"
+      "aside main aside"
+      "footer footer footer" ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-area: header;
+    background-color: #ff0000;
+}
+
+aside:first-child {
+    grid-area: aside;
+    background-color: #00ff91;
+}
+
+main {
+    grid-area: main;
+    background-color: #3333ff
+}
+
+aside:last-child{
+    grid-area: aside;
+    background-color: #00ff91;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #ff0000;
+}
