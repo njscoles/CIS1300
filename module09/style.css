@@ -10,9 +10,10 @@
     margin: 2em;
     padding: 2em;
     border-width: 1em;
+    border-style: solid;
     border-color: #ff0000;
     width: 30em;
-    background-color: blue;
+    background-color: #66ffcc;
 }
 .first {
     box-sizing: content-box;
