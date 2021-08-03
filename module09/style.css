@@ -1,27 +1,23 @@
-html {
+/*html {
  box-sizing: border-box;
 }
 *, *:before, *:after {
  box-sizing: inherit;
  overflow:auto;
-}
+*/
 
-.first {
+.main {
     margin: 2em;
     padding: 2em;
     border-width: 1em;
     border-color: #ff0000;
     width: 30em;
     background-color: blue;
+}
+.first {
     box-sizing: content-box;
 }
 
 .last {
-    margin: 2em;
-    padding: 2em;
-    border-width: 1em;
-    border-color: #ff0000;
-    width: 30em;
-    background-color: blue;
     box-sizing: border-box;
 }
