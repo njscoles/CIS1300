@@ -113,7 +113,8 @@ iframe {
     margin: 0 auto;
     position: relative;
     padding: 0;
-    width: 100%
+    width: 100%;
+    background-color: #f7e4e4;
 }
 
    
@@ -138,7 +139,7 @@ iframe {
 
 .polaroid {
     padding: 1em;
-    background-color: #f7e4e4;
+    background-color: grey;
     border-radius: 1rem;
     margin: 1em 1em 2em 1em;
     max-width: 600px;
