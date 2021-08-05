@@ -136,17 +136,27 @@ iframe {
 
 .polaroid {
     padding: 1em;
-    background-color: grey;
+    background-color: #f7e4e4;
     border-radius: 1rem;
     margin: 1em 1em 2em 1em;
     max-width: 600px;
+    box-shadow: 5px 5px grey;
 }
 .polaroid .aspect-ratio {
+    height: 0px;
+    width: 100%;
+    padding-bottom: 75%;
+    position: relative;
 
 }
 .polaroid .aspect-ratio img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px; left: 0px; right: 0px; bottom: 0px;
+
+
 }
 .polaroid p {
     text-align: center;
