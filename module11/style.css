@@ -10,22 +10,21 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 /*--------------------------------------------------------------
 selector {
-	layout(position)
-	
-	content(text)
-	
-	design(background)
-	
-	other(z-index)
+    layout(position)
+    
+    content(text)
+    
+    design(background)
+    
+    other(z-index)
 }
 ----------------------------------------------------------------
->>> COLORS:	  
+>>> COLORS:   
 ----------------------------------------------------------------
-	blue-dark:#003366;
-	green:#00cc66;	
-	red: #aa0000;
-	yellow: #DFE69E rgba(255,255,100,0.5);
-
+    blue-dark:#003366;
+    green:#00cc66;  
+    red: #aa0000;
+    yellow: #DFE69E rgba(255,255,100,0.5);
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -40,7 +39,6 @@ selector {
 # Other
 # Templates
 # Media Queries
-
 --------------------------------------------------------------*/
 
 
@@ -53,14 +51,16 @@ html {
   box-sizing: border-box;
 }
 html.not-top { 
-	display:none;
+    display:none;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 /*the entire body of the html page*/
 body {    
-	background: #eeeeee;
+    background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 31%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 }
 /* a wrapper around all the actual page content
 this will be centered on the page*/
@@ -69,12 +69,10 @@ this will be centered on the page*/
     position: relative;
     width: calc(100% - 10px);
     max-width:1000px;
-	
+    
     background: rgba(255,255,255,0.75);
     border-radius: 5px;
     box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.25);
-    background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 31%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
-/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 /*--------------------------------------------------------------
@@ -99,7 +97,7 @@ iframe {
 /*main header div*/
 #header {
     margin: 0;
-	min-height:5em;
+    min-height:5em;
     position: relative;
     width: 100%;
     padding: 1rem;
@@ -123,7 +121,7 @@ iframe {
 --------------------------------------------------------------*/
 /*the footer of the page*/
 #footer {
-	height:3em;
+    height:3em;
     margin: 0;
     padding: 1rem;
     position: relative;
@@ -142,7 +140,7 @@ iframe {
     border-radius: 1rem;
     margin: 1em 1em 2em 1em;
     max-width: 600px;
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px 5px 2px grey;
 }
 .polaroid .aspect-ratio {
     height: 0px;
@@ -156,7 +154,7 @@ iframe {
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top: 0px; left: 0px; right: 0px; bottom: 0px;
+    position: 0px 0px 0px 0px;
 
 
 }
@@ -179,17 +177,17 @@ iframe {
 
 /* for-phone-only */
 @media only screen and (max-width: 599px) {
-	
+    
 }
 
 /* for-tablet-portrait-up */
 @media only screen and (min-width: 600px) {
-	
+    
 }
 
 /* for-tablet-portrait-only */
 @media only screen and (min-width: 600px) and (max-width: 899px) {
-	
+    
 }
 
 /* for-tablet-landscape-up */
@@ -199,20 +197,20 @@ iframe {
 
 /* for-tablet-landscape-only */
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
-	
+    
 }
 
 /* for-desktop-up */
 @media only screen and (min-width: 1200px) {
-	
+    
 }
 
 /* for-desktop-only */
 @media only screen and (min-width: 1200px) and (max-width: 1799px) {
-	
+    
 }
 
 /* for-big-desktop-up */
 @media only screen and (min-width: 1800px) {
-	
+    
 }
