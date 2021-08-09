@@ -1,0 +1,134 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+ overflow:auto;
+}
+
+body {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "header"
+    "left"
+    "main"
+    "right"
+    "footer" ;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #ff99cc;
+}
+
+header {
+    grid-area: header;
+    background-color: #ff0000;
+}
+
+aside:first-child {
+    grid-area: left;
+    background-color: #00ff91;
+}
+
+main {
+    grid-area: main;
+    background-color: #3333ff
+}
+
+aside:last-child{
+    grid-area: right;
+    background-color: #00ff91;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #ff0000;
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    body {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr ;
+        grid-template-areas: 
+        "header header"
+        "left right"
+        "main main"
+        "footer footer" ;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #ff99cc;
+    }
+
+    header {
+        grid-area: header;
+        background-color: #ff0000;
+    }
+
+    aside:first-child {
+        grid-area: left;
+        background-color: #00ff91;
+    }
+
+    main {
+        grid-area: main;
+        background-color: #3333ff
+    }
+
+    aside:last-child{
+        grid-area: right;
+        background-color: #00ff91;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: #ff0000;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        display: grid;
+        grid-template-columns:1fr 2fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+          "header header header"
+          "left main right"
+          "footer footer footer" ;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #ff99cc;
+    }
+
+    header {
+        grid-area: header;
+        background-color: #ff0000;
+    }
+
+    aside:first-child {
+        grid-area: left;
+        background-color: #00ff91;
+    }
+
+    main {
+        grid-area: main;
+        background-color: #3333ff
+    }
+
+    aside:last-child{
+        grid-area: right;
+        background-color: #00ff91;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: #ff0000;
+    }
+}
